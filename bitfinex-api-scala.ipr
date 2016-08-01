@@ -65,6 +65,19 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="Play2ExcludedModulesSettings">
+    <option name="INFO">
+      <map>
+        <entry key="bitfinex-api-scala">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -224,6 +237,665 @@
     <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
+    <library name="SBT: aopalliance:aopalliance:1.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: ch.qos.logback:logback-classic:1.1.7:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/docs/logback-classic-1.1.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.1.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: ch.qos.logback:logback-core:1.1.7:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.1.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.1.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.chuusai:shapeless_2.11:2.3.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.chuusai/shapeless_2.11/docs/shapeless_2.11-2.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.chuusai/shapeless_2.11/srcs/shapeless_2.11-2.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.7.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/docs/jackson-annotations-2.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.fasterxml.jackson.core:jackson-core:2.7.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/docs/jackson-core-2.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.fasterxml.jackson.core:jackson-databind:2.7.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/docs/jackson-databind-2.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.7.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/docs/jackson-datatype-jdk8-2.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.7.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/docs/jackson-datatype-jsr310-2.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.google.guava:guava:19.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/bundles/guava-19.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/docs/guava-19.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/srcs/guava-19.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.google.inject.extensions:guice-assistedinject:4.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/docs/guice-assistedinject-4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/srcs/guice-assistedinject-4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.google.inject:guice:4.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/docs/guice-4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.thoughtworks.paranamer:paranamer:2.8:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.thoughtworks.paranamer/paranamer/docs/paranamer-2.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.akka:akka-actor_2.11:2.4.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/docs/akka-actor_2.11-2.4.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.akka:akka-slf4j_2.11:2.4.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/docs/akka-slf4j_2.11-2.4.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/srcs/akka-slf4j_2.11-2.4.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.akka:akka-stream_2.11:2.4.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/docs/akka-stream_2.11-2.4.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.4.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.netty:netty-reactive-streams:1.0.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/docs/netty-reactive-streams-1.0.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/srcs/netty-reactive-streams-1.0.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:build-link:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/build-link/docs/build-link-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/build-link/srcs/build-link-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play-datacommons_2.11:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/docs/play-datacommons_2.11-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/srcs/play-datacommons_2.11-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play-exceptions:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-exceptions/docs/play-exceptions-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-exceptions/srcs/play-exceptions-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play-functional_2.11:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/docs/play-functional_2.11-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play-iteratees_2.11:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/docs/play-iteratees_2.11-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play-json_2.11:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/docs/play-json_2.11-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play-netty-utils:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-netty-utils/docs/play-netty-utils-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-netty-utils/srcs/play-netty-utils-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play-streams_2.11:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-streams_2.11/docs/play-streams_2.11-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-streams_2.11/srcs/play-streams_2.11-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play-ws_2.11:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ws_2.11/docs/play-ws_2.11-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play-ws_2.11/srcs/play-ws_2.11-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:play_2.11:2.5.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/docs/play_2.11-2.5.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe.play:twirl-api_2.11:1.1.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/twirl-api_2.11/docs/twirl-api_2.11-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.play/twirl-api_2.11/srcs/twirl-api_2.11-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe:config:1.3.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/docs/config-1.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/srcs/config-1.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe:ssl-config-akka_2.11:0.2.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/docs/ssl-config-akka_2.11-0.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/srcs/ssl-config-akka_2.11-0.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: com.typesafe:ssl-config-core_2.11:0.2.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/ssl-config-core_2.11/docs/ssl-config-core_2.11-0.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/ssl-config-core_2.11/srcs/ssl-config-core_2.11-0.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: commons-codec:commons-codec:1.10:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/docs/commons-codec-1.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: commons-logging:commons-logging:1.1.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: io.netty:netty-buffer:4.0.36.Final:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-buffer/docs/netty-buffer-4.0.36.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.0.36.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: io.netty:netty-codec-http:4.0.36.Final:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-codec-http/docs/netty-codec-http-4.0.36.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-codec-http/srcs/netty-codec-http-4.0.36.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: io.netty:netty-codec:4.0.36.Final:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-codec/docs/netty-codec-4.0.36.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.0.36.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: io.netty:netty-common:4.0.36.Final:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-common/docs/netty-common-4.0.36.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.0.36.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: io.netty:netty-handler:4.0.36.Final:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-handler/docs/netty-handler-4.0.36.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.0.36.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: io.netty:netty-transport:4.0.36.Final:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-transport/docs/netty-transport-4.0.36.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.0.36.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: javax.inject:javax.inject:1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/javax.inject/javax.inject/docs/javax.inject-1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: javax.transaction:jta:1.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: joda-time:joda-time:2.9.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.9.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: oauth.signpost:signpost-commonshttp4:1.2.1.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/oauth.signpost/signpost-commonshttp4/docs/signpost-commonshttp4-1.2.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/oauth.signpost/signpost-commonshttp4/srcs/signpost-commonshttp4-1.2.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: oauth.signpost:signpost-core:1.2.1.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/oauth.signpost/signpost-core/docs/signpost-core-1.2.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/oauth.signpost/signpost-core/srcs/signpost-core-1.2.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.commons:commons-lang3:3.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.commons/commons-lang3/docs/commons-lang3-3.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.httpcomponents:httpclient:4.0.1:jar">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.apache.httpcomponents:httpcore:4.0.1:jar">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.asynchttpclient:async-http-client:2.0.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/async-http-client/docs/async-http-client-2.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/async-http-client/srcs/async-http-client-2.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.asynchttpclient:netty-codec-dns:2.0.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-codec-dns/docs/netty-codec-dns-2.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-codec-dns/srcs/netty-codec-dns-2.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.asynchttpclient:netty-resolver-dns:2.0.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/docs/netty-resolver-dns-2.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/srcs/netty-resolver-dns-2.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.asynchttpclient:netty-resolver:2.0.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-resolver/docs/netty-resolver-2.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.asynchttpclient/netty-resolver/srcs/netty-resolver-2.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.javassist:javassist:3.20.0-GA:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.javassist/javassist/docs/javassist-3.20.0-GA-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.javassist/javassist/srcs/javassist-3.20.0-GA-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.joda:joda-convert:1.8.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.joda/joda-convert/docs/joda-convert-1.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.json4s:json4s-ast_2.11:3.4.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-ast_2.11/docs/json4s-ast_2.11-3.4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-ast_2.11/srcs/json4s-ast_2.11-3.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.json4s:json4s-core_2.11:3.4.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-core_2.11/docs/json4s-core_2.11-3.4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-core_2.11/srcs/json4s-core_2.11-3.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.json4s:json4s-native_2.11:3.4.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-native_2.11/docs/json4s-native_2.11-3.4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-native_2.11/srcs/json4s-native_2.11-3.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.json4s:json4s-scalap_2.11:3.4.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-scalap_2.11/jars/json4s-scalap_2.11-3.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-scalap_2.11/docs/json4s-scalap_2.11-3.4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-scalap_2.11/srcs/json4s-scalap_2.11-3.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.reactivestreams:reactive-streams:1.0.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.reactivestreams/reactive-streams/docs/reactive-streams-1.0.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/docs/scala-java8-compat_2.11-0.7.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/srcs/scala-java8-compat_2.11-0.7.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/docs/scala-parser-combinators_2.11-1.0.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.5:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.5-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.5-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="SBT: org.scala-lang:scala-library:2.11.8:jar" type="Scala">
       <properties>
         <compiler-classpath>
@@ -240,6 +912,204 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scala-lang:scala-reflect:2.11.8:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.11.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scala-sbt:test-interface:1.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/test-interface/docs/test-interface-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scala-stm:scala-stm_2.11:0.7:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-stm/scala-stm_2.11/docs/scala-stm_2.11-0.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scalacheck:scalacheck_2.11:1.13.2:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.13.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalacheck/scalacheck_2.11/docs/scalacheck_2.11-1.13.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalacheck/scalacheck_2.11/srcs/scalacheck_2.11-1.13.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scalactic:scalactic_2.11:2.2.6:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-2.2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.11/docs/scalactic_2.11-2.2.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.11/srcs/scalactic_2.11-2.2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scalatest:scalatest_2.11:2.2.6:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/docs/scalatest_2.11-2.2.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scalaz.stream:scalaz-stream_2.11:0.8a:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz.stream/scalaz-stream_2.11/bundles/scalaz-stream_2.11-0.8a.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz.stream/scalaz-stream_2.11/docs/scalaz-stream_2.11-0.8a-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz.stream/scalaz-stream_2.11/srcs/scalaz-stream_2.11-0.8a-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scalaz:scalaz-concurrent_2.11:7.2.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/bundles/scalaz-concurrent_2.11-7.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/docs/scalaz-concurrent_2.11-7.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/srcs/scalaz-concurrent_2.11-7.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scalaz:scalaz-core_2.11:7.2.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.11/docs/scalaz-core_2.11-7.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scalaz:scalaz-effect_2.11:7.2.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-effect_2.11/bundles/scalaz-effect_2.11-7.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-effect_2.11/docs/scalaz-effect_2.11-7.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-effect_2.11/srcs/scalaz-effect_2.11-7.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.scodec:scodec-bits_2.11:1.0.12:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scodec/scodec-bits_2.11/bundles/scodec-bits_2.11-1.0.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scodec/scodec-bits_2.11/docs/scodec-bits_2.11-1.0.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.scodec/scodec-bits_2.11/srcs/scodec-bits_2.11-1.0.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.slf4j:jcl-over-slf4j:1.7.19:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.19.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/jcl-over-slf4j/docs/jcl-over-slf4j-1.7.19-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.19-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.slf4j:jul-to-slf4j:1.7.19:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.19.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/jul-to-slf4j/docs/jul-to-slf4j-1.7.19-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.19-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.slf4j:slf4j-api:1.7.21:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.21-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.tpolecat:doobie-core_2.11:0.3.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.tpolecat/doobie-core_2.11/bundles/doobie-core_2.11-0.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.tpolecat/doobie-core_2.11/docs/doobie-core_2.11-0.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.tpolecat/doobie-core_2.11/srcs/doobie-core_2.11-0.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: org.typelevel:macro-compat_2.11:1.1.1:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.typelevel/macro-compat_2.11/docs/macro-compat_2.11-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: xerces:xercesImpl:2.11.0:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/xerces/xercesImpl/docs/xercesImpl-2.11.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/xerces/xercesImpl/srcs/xercesImpl-2.11.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SBT: xml-apis:xml-apis:1.4.01:jar">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.ivy2/cache/xml-apis/xml-apis/docs/xml-apis-1.4.01-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.ivy2/cache/xml-apis/xml-apis/srcs/xml-apis-1.4.01-sources.jar!/" />
       </SOURCES>
     </library>
   </component>

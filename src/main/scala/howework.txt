@@ -1,0 +1,23 @@
+3*. ETL рандомных пользователей в PostgreSQL.
+
+Источник пользователей:
+https://randomuser.me/
+
+Поля:
+- gender
+- name
+- location
+- email
+- phone
+
+HTTP client libraries: Apache HttpClient, Unirest, Jsoup (используем блокирующие вызовы)
+JSON libraries: http://manuel.bernhardt.io/2015/11/06/a-quick-tour-of-json-libraries-in-scala/
+
+1. Реализовать сервис-обёртку для работы с источником пользователей.
+- продумать public API, возможные ошибки
+- продумать конфигурацию стратегий при работе с сервисом, например - Retry на случай ошибки или потери соединения
+2. Реализовать сервис загрузки пользователей в PostgreSQL, используя batch insert (JDBC).
+- реализовать обработку ошибок используя try/catch/finally или Try
+
+Для сборки проекта использовать SBT.
+Для тестирования: scalatest / specs2, scalacheck.
