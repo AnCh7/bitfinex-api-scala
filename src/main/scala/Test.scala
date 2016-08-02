@@ -1,5 +1,10 @@
-class Test {
+object RetrofitExample {
 
+  def main(args: Array[String]): Unit = {
+
+    val ticker = Bitfinex.getTicker("BTCUSD")
+    val x = 0
+  }
 }
 
 object Json4sExample {
@@ -32,11 +37,12 @@ object DoobieExample {
 
     case class Country(code: String, name: String, population: Long)
 
-//    def find(n: String): ConnectionIO[Option[Country]] =
-//      sql"select code, name, population from country where name = $n".query[Country].option
-//
-//    val f = find("France").transact(xa).unsafePerformIO // Option[Country] = Some(Country(FRA, France, 59225700))
+    //    def find(n: String): ConnectionIO[Option[Country]] =
+    //      sql"select code, name, population from country where name = $n".query[Country].option
+    //
+    //    val f = find("France").transact(xa).unsafePerformIO // Option[Country] = Some(Country(FRA, France, 59225700))
   }
 }
+
 
 
