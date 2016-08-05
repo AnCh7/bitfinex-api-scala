@@ -1,5 +1,5 @@
 import Bitfinex.{get, path}
-import model.Ticker
+import responses.{StatResponse, TickerResponse}
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.{Call, Retrofit}
 
@@ -8,11 +8,14 @@ import retrofit2.{Call, Retrofit}
 
 trait BitfinexApi {
 
-  @get("symbols")
-  def symbols(): Call[Array[String]]
-
   @get("pubticker/{symbol}")
-  def ticker(@path("symbol") symbol: String): Call[Ticker]
+  def pubticker(@path("symbol") symbol: String): Call[TickerResponse]
+
+  @get("stats/{symbol}")
+  def stats(@path("symbol") symbol: String): Call[Array[StatResponse]]
+
+  @get("/lendbook/{currency}")
+  def lendbook(@path("symbol") symbol: String): Call[Array[StatResponse]]
 }
 
 object Bitfinex {
@@ -21,6 +24,12 @@ object Bitfinex {
   type path = retrofit2.http.Path
   val API_URL = "https://api.bitfinex.com/v1/"
 
+  /**
+    * Gives innermost bid and asks and information on the most recent trade, as well as high, low and volume of the last 24 hours.
+    *
+    * @param symbol For example: BTCUSD.
+    * @return Ticker entity.
+    */
   def getTicker(symbol: String): String = {
 
     val retrofit = new Retrofit.Builder()
@@ -29,7 +38,43 @@ object Bitfinex {
       .build()
 
     val bitfinex = retrofit.create(classOf[BitfinexApi])
-    val response = bitfinex.ticker(symbol).execute()
+    val response = bitfinex.pubticker(symbol).execute()
+    " "
+  }
+
+  /**
+    * Various statistics about the requested pair.
+    *
+    * @param symbol For example: BTCUSD.
+    * @return An array of the Stat entity.
+    */
+  def stats(symbol: String): String = {
+
+    val retrofit = new Retrofit.Builder()
+      .baseUrl(API_URL)
+      .addConverterFactory(GsonConverterFactory.create())
+      .build()
+
+    val bitfinex = retrofit.create(classOf[BitfinexApi])
+    val response = bitfinex.stats(symbol).execute()
+    " "
+  }
+
+  /**
+    * Get the full margin funding book.
+    *
+    * @param symbol For example: USD.
+    * @return
+    */
+  def fundingbook(symbol: String): String = {
+
+    val retrofit = new Retrofit.Builder()
+      .baseUrl(API_URL)
+      .addConverterFactory(GsonConverterFactory.create())
+      .build()
+
+    val bitfinex = retrofit.create(classOf[BitfinexApi])
+    val response = bitfinex.lendbook(symbol).execute()
     " "
   }
 }

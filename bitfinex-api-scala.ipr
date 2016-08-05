@@ -72,6 +72,7 @@
     <dictionary name="anch">
       <words>
         <w>bitfinex</w>
+        <w>fundingbook</w>
       </words>
     </dictionary>
   </component>
@@ -188,22 +189,22 @@
   <component name="SbtLocalSettings">
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../Repositories/HackerRank/src" value="1467198701765" />
-        <entry key="$PROJECT_DIR$/../../Repositories/ScalaProgramming/assignments/example" value="1459509174000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/ScalaProgramming/assignments/progfun2/week1" value="1457105870000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/ScalaProgramming/assignments/recfun" value="1462361930000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/ScalaProgramming/src" value="1467200664646" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/assignments/funsets" value="1462309040000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/parprog/barneshut" value="1465552684000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/parprog/kmeans" value="1465227434000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/parprog/reductions" value="1465226482000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/parprog/scalashop" value="1465225094000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/parprog/week1" value="1456679356000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/progfun1/objsets" value="1462312046000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/progfun1/patmat" value="1462369264000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/progfun2/calculator" value="1465300146000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/progfun2/quickcheck" value="1464277370000" />
-        <entry key="$PROJECT_DIR$/../../Repositories/super-duper-scala/coursera/progfun2/streams" value="1464276252000" />
+        <entry key="$PROJECT_DIR$/../HackerRank/src" value="1467198701765" />
+        <entry key="$PROJECT_DIR$/../ScalaProgramming/assignments/example" value="1459509174000" />
+        <entry key="$PROJECT_DIR$/../ScalaProgramming/assignments/progfun2/week1" value="1457105870000" />
+        <entry key="$PROJECT_DIR$/../ScalaProgramming/assignments/recfun" value="1462361930000" />
+        <entry key="$PROJECT_DIR$/../ScalaProgramming/src" value="1467200664646" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/assignments/funsets" value="1462309040000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/parprog/barneshut" value="1465552684000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/parprog/kmeans" value="1465227434000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/parprog/reductions" value="1465226482000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/parprog/scalashop" value="1465225094000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/parprog/week1" value="1456679356000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/progfun1/objsets" value="1462312046000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/progfun1/patmat" value="1462369264000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/progfun2/calculator" value="1465300146000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/progfun2/quickcheck" value="1464277370000" />
+        <entry key="$PROJECT_DIR$/../super-duper-scala/coursera/progfun2/streams" value="1464276252000" />
       </map>
     </option>
     <option name="externalProjectsViewState">
@@ -229,6 +230,9 @@
         <option name="sbtVersion" value="0.13.8" />
       </SbtProjectSettings>
     </option>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="SBT: com.chuusai:shapeless_2.11:2.3.0:jar">
